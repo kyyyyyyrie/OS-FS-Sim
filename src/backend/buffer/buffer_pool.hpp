@@ -1,6 +1,6 @@
 ﻿#pragma once
 #include "../../common/common.hpp"
-#include "../../storage/disk.hpp"
+#include "../storage/disk.hpp"
 #include "../concurrency/sync.hpp"
 #include <vector>
 #include <list>
