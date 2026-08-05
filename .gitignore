@@ -1,0 +1,36 @@
+# Build outputs
+build/
+*.exe
+*.obj
+*.pdb
+*.suo
+*.db
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE / Editor
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS / temp files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Project runtime artifacts
+mock_disk.bin
+*.bin
+
+# Kilo
+.kilo/
+
+# CodePair
+.cph/
