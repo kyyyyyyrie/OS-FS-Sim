@@ -17,7 +17,7 @@ int main()
 
   // 1. 初始化依赖模块
   std::cout << "[调试] 开始初始化模拟磁盘..." << std::flush;
-  Disk mock_disk("./sim_disk.bin");
+  Disk mock_disk("./mock_disk.bin");
   if (!mock_disk.init_disk())
   {
     std::cout << "[错误] 模拟磁盘初始化失败！\n"

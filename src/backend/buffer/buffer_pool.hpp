@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "../../common/common.hpp"
-#include "E:\os\src\backend\storage\disk.hpp"
-#include "E:\os\src\backend\concurrency\sync.hpp"
+#include "../../storage/disk.hpp"
+#include "../concurrency/sync.hpp"
 #include <vector>
 #include <list>
 #include <map>
